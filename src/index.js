@@ -1,4 +1,7 @@
 import './mystyles.scss';
+import logoImg from './images/logo_2.png';
 
-const sampleNumber = 1;
-console.log(`Hello from sample ${sampleNumber}`);
+const img = document.createElement('img');
+img.src = logoImg;
+
+document.getElementById('imgContainer').appendChild(img);
